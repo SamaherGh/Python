@@ -1,0 +1,39 @@
+*{
+    /* width: 970px; */
+    padding: 0;
+    margin: auto;
+    color: #eee;
+    
+}
+.container{
+    width: 970px;
+    padding: 0;
+    margin: auto;
+}
+.wid{
+    width: 242.5px;
+}
+.bg-img{
+    background-image: url(bg-h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.logo{
+    height: 200px;
+}
+.bg{
+    background-color: rgb(25, 77, 154);
+    height: 100vh;
+}
+.ul {
+    list-style: none;
+}
+.ul li::before {
+    content: "\2022";
+    color: #ffc107;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
